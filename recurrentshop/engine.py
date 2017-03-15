@@ -1,7 +1,7 @@
 from keras.layers import Layer, InputSpec
 from keras.models import Sequential
 from keras import initializers, regularizers, constraints
-from keras.utils.layer_utils import layer_from_config
+from keras.layers.deserialize as layer_from_config
 from keras import backend as K
 from inspect import getargspec
 import numpy as np
